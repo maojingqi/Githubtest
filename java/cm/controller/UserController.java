@@ -17,7 +17,7 @@ public class UserController {
     @RequestMapping("SelectUser")
     public ModelAndView toLogin(Model mavv) {
         userservice.selectall();
-        ModelAndView mav = new ModelAndView("login/login");
+        ModelAndView mav = new ModelAndView("idd");
         mavv.addAttribute("user", userservice.selectall());
         return mav;
     }
