@@ -1,4 +1,4 @@
 package cm.entity;
 
-public class test {
+public class Test {
 }
